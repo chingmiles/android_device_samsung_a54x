@@ -27,4 +27,5 @@ mka recoveryimage
 #
 ```
 ## Pre-Release
-[TWRP-3.7.1_a54xzh_unofficical_20240802]https://github.com/chingmiles/android_device_samsung_a54x/releases/tag/twrp-12.1
+
+![GitHub release (latest by tag)](https://img.shields.io/github/v/release/chingmiles/android_device_samsung_a54x?label=Release%20twrp-12.1&style=flat-square)

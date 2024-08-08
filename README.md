@@ -26,3 +26,5 @@ mka recoveryimage
 # limitations under the License.
 #
 ```
+## Pre-Release
+https://github.com/chingmiles/android_device_samsung_a54x/releases/tag/twrp-12.1

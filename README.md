@@ -1,3 +1,9 @@
+## Clone
+
+```bash
+git clone https://github.com/chingmiles/android_device_samsung_a54x.git -b main device/samsung/a54x
+```
+
 ## Build
 
 ```bash

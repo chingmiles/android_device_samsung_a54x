@@ -1,39 +1,9 @@
-<manifest version="5.0" type="device" target-level="7">
-    <hal format="hidl">
-        <name>android.hardware.audio</name>
-        <transport>hwbinder</transport>
-        <version>7.1</version>
-        <interface>
-            <name>IDevicesFactory</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@7.1::IDevicesFactory/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>android.hardware.audio.effect</name>
-        <transport>hwbinder</transport>
-        <version>7.0</version>
-        <interface>
-            <name>IEffectsFactory</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@7.0::IEffectsFactory/default</fqname>
-    </hal>
-    <hal format="aidl">
-        <name>android.hardware.biometrics.face</name>
-        <version>2</version>
-        <fqname>IFace/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>android.hardware.bluetooth</name>
-        <transport>hwbinder</transport>
-        <version>1.1</version>
-        <interface>
-            <name>IBluetoothHci</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.1::IBluetoothHci/default</fqname>
-    </hal>
+<!--
+    Input:
+        manifest.xml
+        rkp_skeymint_v200_manifest.xml
+-->
+<manifest version="4.0" type="device" target-level="6">
     <hal format="hidl">
         <name>android.hardware.gatekeeper</name>
         <transport>hwbinder</transport>
@@ -43,15 +13,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::IGatekeeper/default</fqname>
-    </hal>
-    <hal format="aidl">
-        <name>android.hardware.gnss</name>
-        <version>2</version>
-        <interface>
-            <name>IGnss</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>IGnss/default</fqname>
     </hal>
     <hal format="aidl" override="true">
         <name>android.hardware.security.keymint</name>
@@ -102,7 +63,7 @@
         <fqname>ISehKeyMintFactory/default</fqname>
     </hal>
     <sepolicy>
-        <version>33.0</version>
+        <version>32.0</version>
     </sepolicy>
-    <kernel target-level="7"/>
+    <kernel target-level="6"/>
 </manifest>

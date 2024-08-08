@@ -222,7 +222,6 @@ alias of:N*T*Csamsung,sensor-paf-pdp fimc_is
 alias of:N*T*Csamsung,sensor-paf-pdpC* fimc_is
 alias of:N*T*Csamsung,sensor-module fimc_is
 alias of:N*T*Csamsung,sensor-moduleC* fimc_is
-alias platform:sec_pon_alarm sec_pon_alarm
 alias of:N*T*Csamsung,exynos-cpuhp exynos_cpuhp
 alias of:N*T*Csamsung,exynos-cpuhpC* exynos_cpuhp
 alias of:N*T*Csamsung,exynos-is-cis-gd2 is_cis_gd2
@@ -409,8 +408,8 @@ alias of:N*T*Csamsung,mcd-panel-samsung-drvC* mcd_panel_samsung_drv
 alias hid:b0003g*v00001A34p00000802 hid_axff
 alias hid:b0003g*v00001A34p0000F705 hid_axff
 alias usbfunc:ss_mon usb_f_ss_mon_gadget
-alias of:N*T*Csamsung,usb-notifier usb_notifier
-alias of:N*T*Csamsung,usb-notifierC* usb_notifier
+alias of:N*T*Csamsung,origin-usb-notifier usb_notifier
+alias of:N*T*Csamsung,origin-usb-notifierC* usb_notifier
 alias usbfunc:conn_gadget usb_f_conn_gadget
 alias usbfunc:dm1 usb_f_dm1
 alias of:N*T*Csamsung,exynos-is-cis-imx766 is_cis_imx766
@@ -619,6 +618,7 @@ alias usb:v03F0pA31Dd*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
 alias usb:v1BC7p1041d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
 alias usb:v1BC7p1061d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
 alias usb:v1BC7p1071d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
+alias usb:v1BC7p1081d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
 alias usb:v*p*d*dc*dsc*dp*ic02isc0Eip00in* cdc_mbim
 alias hid:b0003g*v00000566p00003004 hid_monterey
 alias of:N*T*Csamsung,exynos-dsufreq exynos_dsufreq

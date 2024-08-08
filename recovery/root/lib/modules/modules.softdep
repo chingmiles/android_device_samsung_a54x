@@ -20,7 +20,6 @@ softdep exynos_drm pre: phy-exynos-mipi
 softdep exynos_ufcc pre: exynos-acme
 softdep mcd_panel_samsung_drv pre: mcd-panel
 softdep is_cis_imx766 pre: fimc-is
-softdep s2mpu15_rtc_8835 pre: sec_pon_alarm
 softdep exynos_cm pre: exynos-seh
 softdep sec_pm_debug pre: acpm-mfd-bus
 softdep synaptics_ts pre: acpm-mfd-bus

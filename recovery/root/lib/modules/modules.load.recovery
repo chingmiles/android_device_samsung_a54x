@@ -208,10 +208,8 @@ s2mpu15_adc_8835.ko
 npu.ko
 sec_pm_debug.ko
 sec_pm_qos_monitor.ko
-sec_pon_alarm.ko
 sec_wakeup_cpu_allocator.ko
 sec_reboot.ko
-sec_crash_key.ko
 sec_crash_key_user.ko
 sec_hard_reset_hook.ko
 sec_key_notifier.ko

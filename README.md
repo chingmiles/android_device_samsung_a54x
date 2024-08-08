@@ -6,6 +6,9 @@ export ALLOW_MISSING_DEPENDENCIES=true
 lunch twrp_a54x-eng
 mka recoveryimage
 ```
+## Pre-Release
+[Release](https://github.com/chingmiles/android_device_samsung_a54x/releases)
+
 
 ## Copyright
 
@@ -26,5 +29,3 @@ mka recoveryimage
 # limitations under the License.
 #
 ```
-## Pre-Release
-[Release](https://github.com/chingmiles/android_device_samsung_a54x/releases)

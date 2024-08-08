@@ -1,4 +1,4 @@
-To build:
+## To build:
 
 ```bash
 export ALLOW_MISSING_DEPENDENCIES=true

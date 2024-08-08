@@ -27,4 +27,4 @@ mka recoveryimage
 #
 ```
 ## Pre-Release
-[Release]https://github.com/chingmiles/android_device_samsung_a54x/releases
+[Release](https://github.com/chingmiles/android_device_samsung_a54x/releases)

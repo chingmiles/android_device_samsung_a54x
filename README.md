@@ -1,3 +1,5 @@
+# This device tree is for the Samsung Galaxy A54 5G variant A5460, which can be used in mainland China, Hong Kong, Macau and Taiwan. This device tree comes from @BlackMesa123 in the XDA forum. Thanks again for his contribution!
+
 ## Clone
 
 ```bash
